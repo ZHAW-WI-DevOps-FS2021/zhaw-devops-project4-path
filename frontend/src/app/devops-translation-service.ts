@@ -125,7 +125,8 @@ export class DevOpsTranslationService extends TranslationService {
             "Translation": "Übersetzung",
             "Translations": "Übersetzungen",
             "de": "Deutsch",
-            "en": "Englisch"
+            "en": "Englisch",
+            "Studiengang": "Studiengang"
         };
     }
 

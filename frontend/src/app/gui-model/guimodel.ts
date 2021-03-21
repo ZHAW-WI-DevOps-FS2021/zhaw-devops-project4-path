@@ -166,6 +166,92 @@ export class GuiModel {
                     ]
                 },
                 {
+                    "id": "StudyProgramFormBachelor",
+                    "title": "StudyProgram",
+                    "url": "/studyProgram",
+                    "formFieldList": [
+                        {
+                            "id":   "name",
+                            "type": "text",
+                            "name": "Name",
+                            "required": true,
+                            "width": 2
+                        },
+                        {
+                            "id":   "studiengang",
+                            "type": "text",
+                            "name": "Studiengang",
+                            "value": "Bachelor",
+                            "required": true,
+                            "width": 2
+                        },
+                        {
+                            "id": "description",
+                            "type": "text",
+                            "name": "Description",
+                            "newRow": true,
+                            "maxLength": 4000,
+                            "height": 4,
+                            "width": 2
+                        },
+                        {
+                            "type": "deleteButton",
+                            "name": "Delete"
+                        },
+                        {
+                            "type": "cancelButton",
+                            "name": "Cancel"
+                        },
+                        {
+                            "type": "okButton",
+                            "name": "Ok"
+                        }
+                    ]
+                },
+                {
+                    "id": "StudyProgramFormMaster",
+                    "title": "StudyProgram",
+                    "url": "/studyProgram",
+                    "formFieldList": [
+                        {
+                            "id":   "name",
+                            "type": "text",
+                            "name": "Name",
+                            "required": true,
+                            "width": 2
+                        },
+                        {
+                            "id":   "studiengang",
+                            "type": "text",
+                            "name": "Studiengang",
+                            "value": "Master",
+                            "required": true,
+                            "width": 2
+                        },
+                        {
+                            "id": "description",
+                            "type": "text",
+                            "name": "Description",
+                            "newRow": true,
+                            "maxLength": 4000,
+                            "height": 4,
+                            "width": 2
+                        },
+                        {
+                            "type": "deleteButton",
+                            "name": "Delete"
+                        },
+                        {
+                            "type": "cancelButton",
+                            "name": "Cancel"
+                        },
+                        {
+                            "type": "okButton",
+                            "name": "Ok"
+                        }
+                    ]
+                },
+                {
                     "id": "PatientForm",
                     "title": "Patient",
                     "url": "/patient",
@@ -1519,7 +1605,7 @@ export class GuiModel {
                             "color": "green",
                             "width": 2,
                             "form" : {
-                                "form" : "StudyProgramForm"
+                                "form" : "StudyProgramFormBachelor"
                             }
                         },
                         {
@@ -1529,7 +1615,7 @@ export class GuiModel {
                             "color": "blue",
                             "width": 2,
                             "form" : {
-                                "form" : "StudyProgramForm"
+                                "form" : "StudyProgramFormMaster"
                             }
                         },
                         {
