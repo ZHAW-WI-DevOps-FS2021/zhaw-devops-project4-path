@@ -1514,9 +1514,19 @@ export class GuiModel {
                         },
                         {
                             "type": "newButton",
-                            "name": "NewStudyProgram",
+                            "name": "NewStudyProgramBachelor",
                             "icon": "fa-user",
                             "color": "green",
+                            "width": 2,
+                            "form" : {
+                                "form" : "StudyProgramForm"
+                            }
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "NewStudyProgramMaster",
+                            "icon": "fa-user",
+                            "color": "blue",
                             "width": 2,
                             "form" : {
                                 "form" : "StudyProgramForm"
