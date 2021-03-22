@@ -11,6 +11,8 @@ public class StudyProgram extends AbstractEntity implements Comparable<StudyProg
 	
 	private String description;
 
+	private String studiengang;
+
 	public String getName() {
 		return name;
 	}
@@ -25,6 +27,14 @@ public class StudyProgram extends AbstractEntity implements Comparable<StudyProg
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public String getStudiengang() {
+		return name;
+	}
+
+	public void setStudiengang(String studiengang) {
+		this.studiengang = studiengang;
 	}
 	
 	@Override

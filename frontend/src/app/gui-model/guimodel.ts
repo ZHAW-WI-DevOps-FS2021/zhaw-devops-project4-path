@@ -143,6 +143,14 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id": "studiengang",
+                            "type": "text",
+                            "name": "Studiengang",
+                            "newRow": true,
+                            "maxLength": 50,
+                            "width": 2
+                        },
+                        {
                             "id": "description",
                             "type": "text",
                             "name": "Description",
