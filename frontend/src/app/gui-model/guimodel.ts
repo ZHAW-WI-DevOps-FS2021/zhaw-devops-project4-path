@@ -151,6 +151,13 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id":   "mvpName",
+                            "type": "text",
+                            "name": "MVP",
+                            "newRow": true,
+                            "width": 2
+                        },                        
+                        {
                             "id": "description",
                             "type": "text",
                             "name": "Description",
@@ -194,6 +201,13 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id":   "mvpName",
+                            "type": "text",
+                            "name": "MVP",
+                            "newRow": true,
+                            "width": 2
+                        },      
+                        {
                             "id": "description",
                             "type": "text",
                             "name": "Description",
@@ -236,6 +250,15 @@ export class GuiModel {
                             "required": true,
                             "width": 2
                         },
+                        {
+                            "id":   "mvpName",
+                            "type": "text",
+                            "name": "MVP",
+                            "newRow": true,
+                            "value": "Name, Vorname",
+                            "required": true,
+                            "width": 2
+                        },      
                         {
                             "id": "description",
                             "type": "text",

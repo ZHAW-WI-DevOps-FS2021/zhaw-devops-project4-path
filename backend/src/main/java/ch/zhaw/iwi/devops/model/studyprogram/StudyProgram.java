@@ -9,6 +9,8 @@ public class StudyProgram extends AbstractEntity implements Comparable<StudyProg
 
 	private String name;
 	
+	private String mvp;
+
 	private String description;
 
 	private String studiengang;
@@ -19,6 +21,14 @@ public class StudyProgram extends AbstractEntity implements Comparable<StudyProg
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public void setMvp(String mvp){
+		this.mvp = mvp;
+	}
+
+	public String getMvp(){
+		return mvp;
 	}
 
 	public String getDescription() {
