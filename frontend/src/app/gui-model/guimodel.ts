@@ -143,6 +143,14 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id":   "wohnort",
+                            "type": "text",
+                            "name": "Wohnort",
+                            "required": true,
+                            "maxLength": 30,
+                            "width": 2
+                        },
+                        {
                             "id": "studiengang",
                             "type": "text",
                             "name": "Studiengang",
